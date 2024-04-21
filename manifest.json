@@ -1,0 +1,19 @@
+{
+    "manifest_version": 2,
+    "name": "TBL UtiliTools",
+    "version": "1.0",
+    "description": "A better TBL",
+    "background": {
+        "service_worker": "src/background.ts"
+    },
+    "content_scripts": [
+        {
+            "matches": [
+                "https://tbl.umak.edu.ph/login/*"
+            ],
+            "js": [
+                "src/entry/login.ts"
+            ]
+        }
+    ]
+}

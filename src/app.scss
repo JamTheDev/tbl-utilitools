@@ -1,0 +1,23 @@
+@font-face {
+    font-family: Marcellus;
+    src: url("./assets/fonts/Marcellus-Regular.ttf");
+}
+
+@font-face {
+    font-family: Metropolis;
+    src: url("./assets/fonts/Metropolis-Regular.otf");
+}
+
+@font-face {
+    font-family: Metropolis;
+    src: url("./assets/fonts/Metropolis-Bold.otf");
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: Metropolis;
+    src: url("./assets/fonts/Metropolis-ExtraBold.otf");
+    font-weight: 800;
+}
+
+$primary:global rgba(17, 28, 78, 1);
